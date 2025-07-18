@@ -1,14 +1,15 @@
 {
   "name": "huggy-webhook",
   "version": "1.0.0",
+  "description": "Servidor Express para receber webhooks da Huggy",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["huggy", "webhook", "express", "api"],
+  "author": "Seu Nome",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^2.2.0",
     "express": "^5.1.0"
